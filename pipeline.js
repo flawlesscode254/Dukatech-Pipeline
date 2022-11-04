@@ -40,7 +40,7 @@ amqp.connect(pipelineHost, options, (connectionError, connection) => {
               console.log(message);
               console.log("Starting directory: " + process.cwd());
               try {
-                process.chdir("/home/azureuser/Shop-Okoa-Developer-Portal");
+                process.chdir("/home/azureuser/Dukatech");
                 console.log("New directory: " + process.cwd());
               } catch (err) {
                 console.log("chdir: " + err);
